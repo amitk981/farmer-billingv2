@@ -12,3 +12,9 @@
 - Original sample reset before handoff. Local preview is left running at port 4174.
 
 The prototype simulates provider outcomes. This is not validation of real AI recognition, network save services, actual receipt delivery or production concurrency. The complete Figma State Atlas has not been individually reproduced or tested.
+
+## Stall selection follow-up
+
+- Added explicit market → stall → confirmation flow, using the established mobile card and footer styles.
+- Twelve state tests pass, including assigned-stall validation, same-stall preservation, discard protection, saved stall snapshots, next-bill context and migration of existing demos.
+- Browser verification: choose A-13 → reload selection → confirm → add Potato → attempt A-12 switch → keep current bill → save → receipt and transaction detail retain A-13.

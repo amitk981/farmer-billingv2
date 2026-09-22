@@ -8,7 +8,7 @@ Run `npm start`, then open http://127.0.0.1:4174/#home. No installation or build
 
 ## Client walkthrough
 
-1. Select Vidya Vikas and start a bill.
+1. Select Vidya Vikas, choose Stall A-12, confirm the stall, and start a bill.
 2. Add Tomato: 2.50 kg at ₹25/kg.
 3. Add Coriander Bunch: 2 bunches. Explicitly apply the sample ₹12/bunch guidance.
 4. Use Tomato’s three-dot menu to change its quantity to 3 kg. Remove Coriander using its confirmation sheet.
@@ -21,7 +21,8 @@ The Review guide and Demo controls are outside the product screen. They provide 
 
 ## Working operations
 
-- Market choice, same-market resume, explicit discard before changing a populated draft, and unavailable-market presentation.
+- Market → stall selection → explicit confirmation before billing. Selecting the same market/stall preserves the draft; changing either requires confirmation before discarding a populated draft.
+- Selected stall persists through reload, new bills, checkout, saved snapshots, receipts and history. Existing saved demos migrate without losing data. A-13 and B-06 are additional illustrative assigned stalls for testing this choice. Market history includes all stalls and labels each bill with its original stall.
 - Catalogue search, weight/count entry, quantity controls, editable rates, explicit benchmark suggestion application, and cancel without committing pending input.
 - Compact item menus, edit, removal confirmation, running bill totals and the complete checkout flow.
 - Optional receipt contact validation, save progress, failed-save retry, unknown-result reconciliation and duplicate-save guards.
