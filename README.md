@@ -8,7 +8,7 @@ Run `npm start`, then open http://127.0.0.1:4174/#home. No installation or build
 
 ## Client walkthrough
 
-1. Select Vidya Vikas, choose Stall A-12, confirm the stall, and start a bill.
+1. Select Vidya Vikas, choose Stall A-12, tap Continue, and start a bill.
 2. Add Tomato: 2.50 kg at ₹25/kg.
 3. Add Coriander Bunch: 2 bunches. Explicitly apply the sample ₹12/bunch guidance.
 4. Use Tomato’s three-dot menu to change its quantity to 3 kg. Remove Coriander using its confirmation sheet.
@@ -42,4 +42,4 @@ Import this project into a separate GitHub repository and connect it to Netlify,
 
 ## Design source
 
-Farmer Billing · Mobile · Final, page `1040:2` in Figma file `SlIauuoAz300IF73VZWAN8`. Reference nodes include M01 `1044:492`, editor `1044:706`, current bill `1045:32261`, removal `1045:31395`, review/contact/confirmation `1045:32501` / `1045:32741` / `1045:32928`, saved `1045:33283`, receipt `1045:33630`, history `1045:33803` and detail `1045:34032`. Additional AI and recovery references were read directly. Exported Figma icons and sample image are committed locally; fonts and style tokens reuse the Flamingo mobile prototype conventions.
+Farmer Billing · Mobile · Final, page `1040:2` in Figma file `SlIauuoAz300IF73VZWAN8`. Stall selection follows M02-S `1215:10211` and selected state M02-T `1215:10408`. Reference nodes include M01 `1044:492`, editor `1044:706`, current bill `1045:32261`, removal `1045:31395`, review/contact/confirmation `1045:32501` / `1045:32741` / `1045:32928`, saved `1045:33283`, receipt `1045:33630`, history `1045:33803` and detail `1045:34032`. Additional AI and recovery references were read directly. Exported Figma icons and sample image are committed locally; fonts and style tokens reuse the Flamingo mobile prototype conventions.

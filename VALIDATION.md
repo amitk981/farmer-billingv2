@@ -15,6 +15,13 @@ The prototype simulates provider outcomes. This is not validation of real AI rec
 
 ## Stall selection follow-up
 
-- Added explicit market → stall → confirmation flow, using the established mobile card and footer styles.
+- Added explicit market → stall → confirmation flow, with explicit stall ownership and draft protection.
 - Twelve state tests pass, including assigned-stall validation, same-stall preservation, discard protection, saved stall snapshots, next-bill context and migration of existing demos.
 - Browser verification: choose A-13 → reload selection → confirm → add Potato → attempt A-12 switch → keep current bill → save → receipt and transaction detail retain A-13.
+
+## Figma stall-screen correction
+
+- Read the live M02-S `1215:10211` and M02-T `1215:10408` design contexts. Replaced the introduced radio-card/footer layout with the approved single panel, stall cards, inline Continue and Back to market actions.
+- Selected state shows only the selected stall with a pink border and enabled Continue, matching M02-T. Returning through market selection allows a different stall choice.
+- Browser verified default choices and disabled Continue; A-12 selection → confirmation → billing home; A-13 selection surviving reload; and Back to market. Compared both rendered states with the Figma references.
+- All 12 existing state tests, JavaScript syntax validation and diff whitespace check pass.
